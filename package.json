@@ -2,15 +2,15 @@
   "name": "s2-cloudTest",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/app.js",
-  "module": "dist/app.mjs",
-  "types": "dist/app.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsup src/app.ts --format cjs,esm --dts"
+    "build": "tsup src/index.ts --format cjs,esm --dts"
   },
   "keywords": [],
   "author": "",

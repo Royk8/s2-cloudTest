@@ -9,7 +9,7 @@
       "noEmit": true,
       "baseUrl": ".",
       "paths": {
-        "@app": ["src/app"],
+        "@app": ["src/index.ts"],
       }
     },
     "include": [
